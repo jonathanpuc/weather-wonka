@@ -1,0 +1,8 @@
+.input-group {
+	margin: 60px 0px;
+}
+
+td:first-of-type, td:first-of-type > div {
+	height: 180px;
+	width: 200px;
+}
