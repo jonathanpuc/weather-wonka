@@ -1,8 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans|Raleway:700');
+
+
+
+h1 {
+	margin-top: 20px;
+	font-size: 60px;
+	font-family: 'Raleway', sans-serif;
+	color:#6D30ED;
+}
+
 .input-group {
 	margin: 60px 0px;
+}
+
+.btn-secondary {
+	background-color: #2ecc71;
+	color:white;
+}
+
+.btn-secondary:hover {
+	background-color: #31c46f;
+	color:white;
 }
 
 td:first-of-type, td:first-of-type > div {
 	height: 180px;
 	width: 200px;
+}
+
+th {
+	font-family: 'PT Sans', sans-serif;
+}
+
+thead {
+	background-color: #ecf0f1;
 }
